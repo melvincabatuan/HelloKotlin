@@ -14,7 +14,7 @@ fun bubbleSort(A: Array<Int>) {
 
 
 fun main() {
-    val myArray = arrayOf(70, 60, 30, 80, 50, 90)
+    val myArray = arrayOf(90, 80, 70, 60, 50, 40)
     print("The sorted of ${Arrays.toString(myArray)} is ")
     bubbleSort(myArray)
     println("${Arrays.toString(myArray)}")
